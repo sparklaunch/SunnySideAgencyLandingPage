@@ -11,9 +11,9 @@ struct HeaderView: View {
     var body: some View {
         ZStack {
             Color("BackgroundColor")
-            ZStack {
-                TopNavigationView()
+            ZStack(alignment: .top) {
                 OrangeDecorView()
+                TopNavigationView()
             }
         }
     }
