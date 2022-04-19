@@ -9,13 +9,11 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack {
-            Color("BackgroundColor")
-            ZStack(alignment: .top) {
-                OrangeDecorView()
-                TopNavigationView()
-            }
+        ZStack(alignment: .top) {
+            OrangeDecorView()
+            TopNavigationView()
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 

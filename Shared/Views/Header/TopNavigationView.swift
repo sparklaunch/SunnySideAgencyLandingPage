@@ -12,17 +12,17 @@ struct TopNavigationView: View {
         HStack {
             Image(decorative: "Logo")
                 .resizable()
-                .frame(width: 248, height: 48)
+                .frame(width: 124, height: 24)
             Spacer()
             Button {
                 // TODO: HAMBURGER BUTTON.
             } label: {
                 Image(decorative: "Hamburger")
                     .resizable()
-                    .frame(width: 48, height: 36)
+                    .frame(width: 24, height: 18)
             }
         }
-        .padding(36)
+        .padding(24)
     }
 }
 

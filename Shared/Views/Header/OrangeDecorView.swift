@@ -13,16 +13,15 @@ struct OrangeDecorView: View {
             Image(decorative: "Header")
                 .resizable()
                 .scaledToFill()
-            VStack(spacing: 96) {
+            VStack(spacing: 48) {
                 Text("WE ARE CREATIVES")
-                    .kerning(16)
-                    .font(.system(size: 64, weight: .black, design: .serif))
+                    .kerning(12)
+                    .font(.system(size: 36, weight: .black, design: .serif))
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                 Image(decorative: "DownArrow")
                     .resizable()
                     .frame(width: 36, height: 114)
-                    .scaleEffect(1.8)
             }
         }
     }
