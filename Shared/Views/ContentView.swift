@@ -16,6 +16,7 @@ struct ContentView: View {
                 TransformView()
                 GlassView()
                 StandOutView()
+                GraphicDesignView()
             }
             .padding(.top, 48)
         }
