@@ -19,6 +19,7 @@ struct ContentView: View {
                 GraphicDesignView()
                 PhotographyView()
                 TestimonialsView()
+                GalleryView()
             }
             .padding(.top, 48)
         }
