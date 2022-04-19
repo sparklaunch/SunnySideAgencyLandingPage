@@ -18,6 +18,8 @@
 		90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A85280E5EC500AB956E /* OrangeDecorView.swift */; };
 		90763A89280E62F000AB956E /* EggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A88280E62F000AB956E /* EggView.swift */; };
 		90763A8B280E645400AB956E /* TransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A8A280E645400AB956E /* TransformView.swift */; };
+		90763A8D280E671600AB956E /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A8C280E671600AB956E /* GlassView.swift */; };
+		90763A8F280E675900AB956E /* StandOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A8E280E675900AB956E /* StandOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		90763A85280E5EC500AB956E /* OrangeDecorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeDecorView.swift; sourceTree = "<group>"; };
 		90763A88280E62F000AB956E /* EggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggView.swift; sourceTree = "<group>"; };
 		90763A8A280E645400AB956E /* TransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformView.swift; sourceTree = "<group>"; };
+		90763A8C280E671600AB956E /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
+		90763A8E280E675900AB956E /* StandOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			children = (
 				90763A88280E62F000AB956E /* EggView.swift */,
 				90763A8A280E645400AB956E /* TransformView.swift */,
+				90763A8C280E671600AB956E /* GlassView.swift */,
+				90763A8E280E675900AB956E /* StandOutView.swift */,
 			);
 			path = Inserts;
 			sourceTree = "<group>";
@@ -233,11 +239,13 @@
 			files = (
 				90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */,
 				90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */,
+				90763A8F280E675900AB956E /* StandOutView.swift in Sources */,
 				90763A89280E62F000AB956E /* EggView.swift in Sources */,
 				90763A71280E5B0900AB956E /* ContentView.swift in Sources */,
 				90763A8B280E645400AB956E /* TransformView.swift in Sources */,
 				90763A82280E5E3900AB956E /* HeaderView.swift in Sources */,
 				90763A6F280E5B0900AB956E /* SunnySideAgencyLandingPageApp.swift in Sources */,
+				90763A8D280E671600AB956E /* GlassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

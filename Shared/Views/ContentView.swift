@@ -14,6 +14,8 @@ struct ContentView: View {
                 HeaderView()
                 EggView()
                 TransformView()
+                GlassView()
+                StandOutView()
             }
             .padding(.top, 48)
         }
