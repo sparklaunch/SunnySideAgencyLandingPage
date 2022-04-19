@@ -13,11 +13,15 @@ struct ContentView: View {
             VStack(spacing: .zero) {
                 HeaderView()
                 EggView()
+                TransformView()
             }
+            .padding(.top, 48)
         }
-        .padding(.top, 48)
         .background(Color("BackgroundColor"))
         .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
+        }
     }
 }
 
