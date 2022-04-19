@@ -16,6 +16,7 @@
 		90763A82280E5E3900AB956E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A81280E5E3900AB956E /* HeaderView.swift */; };
 		90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A83280E5EB900AB956E /* TopNavigationView.swift */; };
 		90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A85280E5EC500AB956E /* OrangeDecorView.swift */; };
+		90763A89280E62F000AB956E /* EggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A88280E62F000AB956E /* EggView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90763A81280E5E3900AB956E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90763A83280E5EB900AB956E /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90763A85280E5EC500AB956E /* OrangeDecorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeDecorView.swift; sourceTree = "<group>"; };
+		90763A88280E62F000AB956E /* EggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		90763A7E280E5B2C00AB956E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90763A87280E62E100AB956E /* Inserts */,
 				90763A80280E5E2900AB956E /* Header */,
 				90763A60280E5B0800AB956E /* ContentView.swift */,
 			);
@@ -117,6 +120,14 @@
 				90763A85280E5EC500AB956E /* OrangeDecorView.swift */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		90763A87280E62E100AB956E /* Inserts */ = {
+			isa = PBXGroup;
+			children = (
+				90763A88280E62F000AB956E /* EggView.swift */,
+			);
+			path = Inserts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			files = (
 				90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */,
 				90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */,
+				90763A89280E62F000AB956E /* EggView.swift in Sources */,
 				90763A71280E5B0900AB956E /* ContentView.swift in Sources */,
 				90763A82280E5E3900AB956E /* HeaderView.swift in Sources */,
 				90763A6F280E5B0900AB956E /* SunnySideAgencyLandingPageApp.swift in Sources */,

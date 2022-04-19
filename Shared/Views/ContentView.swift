@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HeaderView()
+        ScrollView {
+            VStack(spacing: .zero) {
+                HeaderView()
+                EggView()
+            }
         }
+        .padding(.top, 48)
+        .background(Color("BackgroundColor"))
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
