@@ -17,6 +17,7 @@ struct ContentView: View {
                 GlassView()
                 StandOutView()
                 GraphicDesignView()
+                PhotographyView()
             }
             .padding(.top, 48)
         }

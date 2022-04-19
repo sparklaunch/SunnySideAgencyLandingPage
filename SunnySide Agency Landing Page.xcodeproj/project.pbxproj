@@ -21,6 +21,7 @@
 		90763A8D280E671600AB956E /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A8C280E671600AB956E /* GlassView.swift */; };
 		90763A8F280E675900AB956E /* StandOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A8E280E675900AB956E /* StandOutView.swift */; };
 		90763A91280E680E00AB956E /* GraphicDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A90280E680E00AB956E /* GraphicDesignView.swift */; };
+		90763A93280E690A00AB956E /* PhotographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A92280E690A00AB956E /* PhotographyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		90763A8C280E671600AB956E /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
 		90763A8E280E675900AB956E /* StandOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandOutView.swift; sourceTree = "<group>"; };
 		90763A90280E680E00AB956E /* GraphicDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicDesignView.swift; sourceTree = "<group>"; };
+		90763A92280E690A00AB956E /* PhotographyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotographyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				90763A8C280E671600AB956E /* GlassView.swift */,
 				90763A8E280E675900AB956E /* StandOutView.swift */,
 				90763A90280E680E00AB956E /* GraphicDesignView.swift */,
+				90763A92280E690A00AB956E /* PhotographyView.swift */,
 			);
 			path = Inserts;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */,
 				90763A91280E680E00AB956E /* GraphicDesignView.swift in Sources */,
 				90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */,
+				90763A93280E690A00AB956E /* PhotographyView.swift in Sources */,
 				90763A8F280E675900AB956E /* StandOutView.swift in Sources */,
 				90763A89280E62F000AB956E /* EggView.swift in Sources */,
 				90763A71280E5B0900AB956E /* ContentView.swift in Sources */,
