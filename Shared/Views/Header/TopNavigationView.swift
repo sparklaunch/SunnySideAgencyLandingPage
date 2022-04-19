@@ -22,7 +22,7 @@ struct TopNavigationView: View {
                     .frame(width: 24, height: 18)
             }
         }
-        .padding(24)
+        .padding(Constants.General.regularPadding)
     }
 }
 

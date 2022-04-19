@@ -13,7 +13,7 @@ struct TestimonialView: View {
     let name: String
     let title: String
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: Constants.General.regularSpacing) {
             Image(decorative: imageName)
                 .resizable()
                 .frame(width: 64, height: 64)
@@ -24,7 +24,7 @@ struct TestimonialView: View {
                 .font(.body)
                 .fontWeight(.semibold)
                 .foregroundColor(Color("TitleColor"))
-                .lineSpacing(5)
+                .lineSpacing(Constants.General.lineSpacing)
                 .multilineTextAlignment(.center)
             Text(name)
                 .font(.title3)

@@ -13,7 +13,7 @@ struct GraphicDesignView: View {
             Image(decorative: "Design")
                 .resizable()
                 .scaledToFit()
-            VStack(spacing: 24) {
+            VStack(spacing: Constants.General.regularSpacing) {
                 Text("Graphic Design")
                     .font(.largeTitle)
                     .fontWeight(.black)
@@ -23,10 +23,10 @@ struct GraphicDesignView: View {
                     .font(.body)
                     .fontWeight(.semibold)
                     .foregroundColor(Color("TitleColor"))
-                    .lineSpacing(5)
+                    .lineSpacing(Constants.General.lineSpacing)
                     .multilineTextAlignment(.center)
             }
-            .padding(EdgeInsets(top: 64, leading: 16, bottom: 64, trailing: 16))
+            .padding(EdgeInsets(top: Constants.General.extrawidePadding, leading: Constants.General.narrowPadding, bottom: Constants.General.extrawidePadding, trailing: Constants.General.narrowPadding))
         }
     }
 }

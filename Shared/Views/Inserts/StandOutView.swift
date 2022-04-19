@@ -11,7 +11,7 @@ struct StandOutView: View {
     var body: some View {
         ZStack {
             Color("AmbientColor")
-            VStack(spacing: 24) {
+            VStack(spacing: Constants.General.regularSpacing) {
                 Text("Stand out to the right audience")
                     .font(.largeTitle)
                     .fontWeight(.black)
@@ -21,7 +21,7 @@ struct StandOutView: View {
                     .font(.body)
                     .fontWeight(.regular)
                     .foregroundColor(Color("BodyColor"))
-                    .lineSpacing(5)
+                    .lineSpacing(Constants.General.lineSpacing)
                     .multilineTextAlignment(.center)
                 Button {
                     // TODO: LEARN MORE.
@@ -40,7 +40,7 @@ struct StandOutView: View {
                         )
                 }
             }
-            .padding(EdgeInsets(top: 64, leading: 16, bottom: 64, trailing: 16))
+            .padding(EdgeInsets(top: Constants.General.extrawidePadding, leading: Constants.General.narrowPadding, bottom: Constants.General.extrawidePadding, trailing: Constants.General.narrowPadding))
         }
         .fixedSize(horizontal: false, vertical: true)
     }

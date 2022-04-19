@@ -37,7 +37,7 @@ struct FooterSitemapsView: View {
                     .foregroundColor(Color("AccentColor"))
             }
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, Constants.General.regularPadding)
     }
 }
 

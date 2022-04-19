@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FooterSocialMediaLinksView: View {
     var body: some View {
-        HStack(spacing: 36) {
+        HStack(spacing: Constants.General.semiwideSpacing) {
             Button {
                 // TODO: FACEBOOK LINK.
             } label: {

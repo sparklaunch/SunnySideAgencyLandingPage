@@ -22,7 +22,7 @@ struct ContentView: View {
                 GalleryView()
                 FooterView()
             }
-            .padding(.top, 48)
+            .padding(.top, Constants.General.widePadding)
         }
         .background(Color("BackgroundColor"))
         .edgesIgnoringSafeArea(.all)
