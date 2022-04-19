@@ -13,6 +13,9 @@
 		90763A72280E5B0900AB956E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A60280E5B0800AB956E /* ContentView.swift */; };
 		90763A73280E5B0900AB956E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90763A61280E5B0900AB956E /* Assets.xcassets */; };
 		90763A74280E5B0900AB956E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90763A61280E5B0900AB956E /* Assets.xcassets */; };
+		90763A82280E5E3900AB956E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A81280E5E3900AB956E /* HeaderView.swift */; };
+		90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A83280E5EB900AB956E /* TopNavigationView.swift */; };
+		90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A85280E5EC500AB956E /* OrangeDecorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		90763A66280E5B0900AB956E /* SunnySide Agency Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SunnySide Agency Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90763A6C280E5B0900AB956E /* SunnySide Agency Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SunnySide Agency Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90763A6E280E5B0900AB956E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90763A81280E5E3900AB956E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90763A83280E5EB900AB956E /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		90763A85280E5EC500AB956E /* OrangeDecorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeDecorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		90763A7E280E5B2C00AB956E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90763A80280E5E2900AB956E /* Header */,
 				90763A60280E5B0800AB956E /* ContentView.swift */,
 			);
 			path = Views;
@@ -100,6 +107,16 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90763A80280E5E2900AB956E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				90763A81280E5E3900AB956E /* HeaderView.swift */,
+				90763A83280E5EB900AB956E /* TopNavigationView.swift */,
+				90763A85280E5EC500AB956E /* OrangeDecorView.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90763A86280E5EC500AB956E /* OrangeDecorView.swift in Sources */,
+				90763A84280E5EB900AB956E /* TopNavigationView.swift in Sources */,
 				90763A71280E5B0900AB956E /* ContentView.swift in Sources */,
+				90763A82280E5E3900AB956E /* HeaderView.swift in Sources */,
 				90763A6F280E5B0900AB956E /* SunnySideAgencyLandingPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
