@@ -27,6 +27,7 @@
 		90763A99280E6D1C00AB956E /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A98280E6D1C00AB956E /* GalleryView.swift */; };
 		90763A9C280E6E0000AB956E /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A9B280E6E0000AB956E /* FooterView.swift */; };
 		90763A9E280E6F9B00AB956E /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A9D280E6F9B00AB956E /* FooterLogoView.swift */; };
+		90763AA0280E6FE100AB956E /* FooterSitemapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90763A9F280E6FE100AB956E /* FooterSitemapsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		90763A98280E6D1C00AB956E /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		90763A9B280E6E0000AB956E /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90763A9D280E6F9B00AB956E /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
+		90763A9F280E6FE100AB956E /* FooterSitemapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				90763A9B280E6E0000AB956E /* FooterView.swift */,
 				90763A9D280E6F9B00AB956E /* FooterLogoView.swift */,
+				90763A9F280E6FE100AB956E /* FooterSitemapsView.swift */,
 			);
 			path = Footer;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				90763A9E280E6F9B00AB956E /* FooterLogoView.swift in Sources */,
 				90763A8B280E645400AB956E /* TransformView.swift in Sources */,
 				90763A95280E698500AB956E /* TestimonialsView.swift in Sources */,
+				90763AA0280E6FE100AB956E /* FooterSitemapsView.swift in Sources */,
 				90763A82280E5E3900AB956E /* HeaderView.swift in Sources */,
 				90763A6F280E5B0900AB956E /* SunnySideAgencyLandingPageApp.swift in Sources */,
 				90763A8D280E671600AB956E /* GlassView.swift in Sources */,

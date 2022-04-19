@@ -13,7 +13,7 @@ struct FooterLogoView: View {
             .renderingMode(.template)
             .resizable()
             .foregroundColor(Color("AccentColor"))
-            .scaledToFit()
+            .frame(width: 124, height: 24)
     }
 }
 
