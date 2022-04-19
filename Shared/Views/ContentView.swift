@@ -20,6 +20,7 @@ struct ContentView: View {
                 PhotographyView()
                 TestimonialsView()
                 GalleryView()
+                FooterView()
             }
             .padding(.top, 48)
         }
