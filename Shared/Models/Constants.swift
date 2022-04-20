@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Constants {
-    struct General {
+enum Constants {
+    enum General {
         static public let extrawidePadding: Double = 64
         static public let widePadding: Double = 48
         static public let wideSpacing: Double = 48

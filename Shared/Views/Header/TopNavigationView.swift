@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopNavigationView: View {
+    @Binding var isHamburgerMenuExpanded: Bool
     var body: some View {
         HStack {
             Image(decorative: "Logo")
@@ -15,7 +16,9 @@ struct TopNavigationView: View {
                 .frame(width: 124, height: 24)
             Spacer()
             Button {
-                // TODO: HAMBURGER BUTTON.
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
+                    isHamburgerMenuExpanded.toggle()
+                }
             } label: {
                 Image(decorative: "Hamburger")
                     .resizable()
@@ -28,7 +31,7 @@ struct TopNavigationView: View {
 
 struct TopNavigationView_Previews: PreviewProvider {
     static var previews: some View {
-        TopNavigationView()
+        TopNavigationView(isHamburgerMenuExpanded: .constant(false))
             .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }

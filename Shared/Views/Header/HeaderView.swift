@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @State private var isHamburgerMenuExpanded: Bool = false
     var body: some View {
         ZStack(alignment: .top) {
             OrangeDecorView()
-            TopNavigationView()
+            TopNavigationView(isHamburgerMenuExpanded: $isHamburgerMenuExpanded)
+            HamburgerMenuView()
+                .offset(x: .zero, y: 80)
+                .opacity(isHamburgerMenuExpanded ? 1 : .zero)
         }
         .fixedSize(horizontal: false, vertical: true)
     }
